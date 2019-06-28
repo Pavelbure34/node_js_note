@@ -1,0 +1,139 @@
+body{
+    font-family: Arial;
+    font-size:20px;
+}
+
+#header{
+    vertical-align: top;
+    border-bottom:2px solid black;
+    background-color:azure;
+}
+
+#main{
+    vertical-align: 50%;
+    margin-left:100px;
+    background-color: #fff;
+}
+
+#footer{
+    vertical-align: baseline;
+    border-top:2px solid black;
+    background-color:azure;
+}
+
+emB{
+    content: attr(t);
+    font-weight: bold;
+    color:blue;
+}
+
+emR{
+    content: attr(t);
+    font-weight: bold;
+    font-style: italic;
+    color:red;
+}
+
+ul li{
+    margin-bottom:5px;
+}
+
+ol li{
+    margin-bottom:5px;
+}
+
+div{
+    margin:5px;
+}
+
+section{
+    margin:5px;
+}
+
+article{
+    margin:5px;
+}
+
+blockquote{
+    margin:5px;
+    padding:10px;
+    border:2px solid black;
+    width:600px;
+}
+
+table td{
+    border:1px solid black;
+    text-align: center;
+}
+
+table th{
+    border:1px solid black;
+    background-color: aqua;
+    text-align: center;
+}
+
+.noBulletPt{
+    list-style-type: none;
+}
+
+.noBulletPt li{
+    margin-bottom:5px;
+}
+
+.circleBulletPt{
+    list-style-type: circle;
+}
+
+.circleBulletPt li{
+    margin-bottom:5px;
+}
+
+.romanNumbered{
+    list-style-type: upper-roman;
+}
+
+.romanNumbered li{
+    margin-bottom:5px;
+}
+
+.floatL{
+    float:left;
+}
+
+.floatR{
+    float:right;
+}
+
+.centerText{
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.leftText{
+    text-align: left;
+    margin-left:10px;
+}
+
+.rightText{
+    text-align: right;
+    margin-right:10px;
+}
+
+.centerItem{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+.imgSub{
+    margin-left:10px;
+    font-weight:bold;
+}
+
+.clearB{
+    clear:both;
+}
+
+.indent{
+    margin-left:10px;
+}
