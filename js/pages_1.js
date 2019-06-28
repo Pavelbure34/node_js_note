@@ -36,6 +36,20 @@ const fundamental = {
             Node.js makes a shortcut to that!\
         </section>',
     ch02:
+        '<h2>how to install node.js</h2>\
+        <div id="album" class="centerItem"></div>\
+        <ol>\
+            <li>Go to Node.js website.<a href="https://nodejs.org/en/">here</a></li>\
+            <li>Click on install and do the rest.</li>\
+            <li>Turn on your terminal and type <emB>node -v</emB> to confirm installation.</li>\
+        </ol>\
+        <ul>\
+            <caption>Let&rsquo;s try toyiing with Node JS from terminal.</caption>\
+            <li>Type node in cmd.</li>\
+            <li>generate js file under any name in the desired directory.</li>\
+            <li>you can run js code outside of the browser this way.</li>\
+        </ul>',
+    ch03:
         ''
 }
 

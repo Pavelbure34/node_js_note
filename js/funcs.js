@@ -40,7 +40,7 @@ const funcs = {
             '</div>'
         );
         funcs.button(btn1,()=>{
-            if (index > 1){
+            if (index > 0){
                 index--;
             }
             $("#"+id+" img").attr("src",src[index]);
