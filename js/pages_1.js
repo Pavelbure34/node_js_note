@@ -92,11 +92,7 @@ const fundamental = {
         '<section>\
             <h3 class="centerText">2.Using files</h3>\
             It is used by real applications where you can actually save your code.\
-        </section>',
-    ch05:
-        '',
-    ch06:
-        ''
+        </section>'
 }
 
 const javascript = {
@@ -150,5 +146,7 @@ const javascript = {
         </ul>\
         They are good to use since somebody already wrote it for you to use!',
     ch04:
-        ''
+        ' <h2>template literals</h2>\
+        The old way to concatenate strings was to use + symbol within the string.\
+        However you are free from it! use backticks.'
 }

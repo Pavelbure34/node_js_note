@@ -76,6 +76,14 @@ const nav = {
             $("#main").html(javascript.ch04);
         }
     },
+    node:{
+        ch01:()=>{
+            $("#main").html(node.ch01);
+        },
+        ch02:()=>{
+            $("#main").html(node.ch02);
+        }
+    },
     next:{
         ch01:()=>{
             $("#main").html();

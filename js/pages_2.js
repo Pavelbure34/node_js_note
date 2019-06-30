@@ -11,3 +11,10 @@ const mongo = {
     ch02:
         ''
 }
+
+const node = {
+    ch01:
+        '',
+    ch02:
+        ''
+}

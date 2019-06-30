@@ -24,10 +24,7 @@ const funcs = {
             '<div id="'+id+'">'+
                 '<img'+
                     'src='+src[index]+
-                    'style="'+
-                        'width:'+width+'px;'+
-                        'height:'+height+'px;'+
-                    '"'+
+                    'style="width:'+width+'px;height:'+height+'px;"'+
                     'alt="album"'+
                 '>'+
                 '<div class="indented">'+
