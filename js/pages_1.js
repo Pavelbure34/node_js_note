@@ -50,6 +50,33 @@ const fundamental = {
             <li>you can run js code outside of the browser this way.</li>\
         </ul>',
     ch03:
+        '<h2>Role and usage of node.js</h2>\
+        <section>\
+            <h3 class="centerText">Node JS as server</h3>\
+            <div class="indented">\
+                The web browser(client) runs the client code but<br>\
+                Authentication, database access is better to be done in the server<br>\
+                for security reasons. Node JS(js runtime) works like a server for web development.\
+            </div>\
+        </section>'+
+        '<section>\
+            <h3 class="centerText">Node JS as more!</h3>\
+            <div class="indented">\
+                Node js by default executes js code<br>\
+                and using this as the build tool is super useful.<br>\
+                Angular, React frameworks uses node js.\
+            </div>\
+        </section>'+
+        '<section>\
+            <h3 class="centerText">where to practice node.js the best!</h3>\
+            <div class="indented">\
+                Next.js is the best build tool for practicing node.js!<br>\
+                for it allows you to build web pages dynamically on the web server.<br>\
+            </div>\
+        </section>',
+    ch04:
+        '',
+    ch05:
         ''
 }
 

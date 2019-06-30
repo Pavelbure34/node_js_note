@@ -14,9 +14,9 @@ const nav = {
                 './img/fundamental/ch02/node_example.png'
             ];
             let text=[
-                'Where to install Node.js',
-                'Confirming installation',
-                'What node js can do'
+                './Where to install Node.js',
+                './Confirming installation',
+                './What node js can do'
             ];
             $("#main").html(fundamental.ch02);
             funcs.album(
@@ -27,6 +27,15 @@ const nav = {
                 "prev",
                 text
             );
+        },
+        ch03:()=>{
+            $("#main").html(fundamental.ch03); 
+        },
+        ch04:()=>{
+            $("#main").html(fundamental.ch04); 
+        },
+        ch05:()=>{
+            $("#main").html(fundamental.ch05); 
         }
     },
     javascript:{
