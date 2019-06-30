@@ -75,14 +75,80 @@ const fundamental = {
             </div>\
         </section>',
     ch04:
-        '',
+        '<h2>Two ways to execute node.js code</h2>\
+        <section>\
+            <h3 class="centerText">1.REPL</h3>\
+            <blockquote>\
+                <ol>\
+                    <li><emB>R</emB>ead user input</li>\
+                    <li><emB>E</emB>valuate user input</li>\
+                    <li><emB>P</emB>rint user input</li>\
+                    <li><emB>L</emB>oop</li>\
+                </ol>\
+            </blockquote>\
+            REPL is basic environment triggered when you type node in console.\
+            You cannot save anything here so not ideal for node.js code playground.\
+        </section>'+
+        '<section>\
+            <h3 class="centerText">2.Using files</h3>\
+            It is used by real applications where you can actually save your code.\
+        </section>',
     ch05:
+        '',
+    ch06:
         ''
 }
 
 const javascript = {
     ch01:
-        '',
+        '<h2>Chapter01.rest & spread operator, and reference type</h2>\
+        <section>\
+            <h3 class="centerText">Reference Type</h3>\
+            Reference type refers to the address pointer of that array or any object<br>\
+            in the memory. Therefore, you can use push method to append new element into the<br>\
+            const array. Similar to reference and pointer in C++.\
+        </section>'+
+        '<section>\
+            <h3 class="centerText">spread operator</h3>\
+            <div id="img1"></div>\
+            <blockquote>\
+                const newArrName = [...arrName, ];\
+            </blockquote>\
+            This way, you can copy the older array and add new item on top of it.<br>\
+            it is a quite common practice for copying the information.\
+        </section>\
+        <section>\
+            <h3 class="centerText">rest operator</h3>\
+            <div id="img2"></div>\
+            <blockquote>\
+                toArray = (...args)=>{\
+                  return args;  \
+                }\
+            </blockquote>\
+           this way, when you want to return a array with arguments,<br>\
+           you can use this method to ensure the number of arguments are not limited.'+ 
+        '</section>',
     ch02:
+        '<h2>chapter02.destructuring</h2>\
+        When you destructure the object,\
+       <div id="img1"></div>\
+       It works for any object and its following properties.',
+    ch03:
+        '<h2>Async code and Promises</h2>\
+        <blockquote>\
+            Async code is the code which does not execute itself immediately<br>\
+             after it is compiled successsfully.\
+            Sync code is the opposite.\
+        </blockquote>\
+        In Node.js we use many many many async codes in our code.\
+        <div id="img1"></div>\
+        You can execute async code using promise and then function.\
+        <ul>\
+            <caption>it prevents</caption>\
+            <li>nested callbacks</li>\
+            <li>organized multiple callbacks</li>\
+        </ul>\
+        They are good to use since somebody already wrote it for you to use!',
+    ch04:
         ''
 }

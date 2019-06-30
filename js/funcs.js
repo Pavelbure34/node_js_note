@@ -4,10 +4,9 @@ const funcs = {
             '<div id="'+id+'">'+
                 '<img'+
                     'src='+src+
-                    'style="'+
-                        'width:'+width+'px;'+
-                        'height:'+height+'px;'+
-                    '"'+
+                    'width="'+width+'"'+
+                    'height="'+height+'"'+
+                    'alt="img"'+
                 '>'+
                 '<div class="indented>'+
                     '<span class="imgSub">'+text+'</span>'+
@@ -29,7 +28,8 @@ const funcs = {
                         'width:'+width+'px;'+
                         'height:'+height+'px;'+
                     '"'+
-                '/>'+
+                    'alt="album"'+
+                '>'+
                 '<div class="indented">'+
                     '<span class="imgSub">'+text[index]+'</span>'+
                 '</div>'+

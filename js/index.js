@@ -14,9 +14,9 @@ const nav = {
                 './img/fundamental/ch02/node_example.png'
             ];
             let text=[
-                './Where to install Node.js',
-                './Confirming installation',
-                './What node js can do'
+                'Where to install Node.js',
+                'Confirming installation',
+                'What node js can do'
             ];
             $("#main").html(fundamental.ch02);
             funcs.album(
@@ -40,7 +40,40 @@ const nav = {
     },
     javascript:{
         ch01:()=>{
-            $("#main").html();
+            $("#main").html(javascript.ch01);
+            funcs.img(
+                "img1",
+                "./img/javascript/day01/spread.png",
+                700,200,
+                "spread operator"
+            );
+            funcs.img(
+                "img2",
+                "./img/javascript/day01/rest.png",
+                700,200,
+                "rest operator"
+            );
+        },
+        ch02:()=>{
+            $("#main").html(javascript.ch02);
+            funcs.img(
+                "img1",
+                "./img/javascript/day02/destructure.png",
+                700,200,
+                "destructuring"
+            );
+        },
+        ch03:()=>{
+            $("#main").html(javascript.ch03);
+            funcs.img(
+                "img1",
+                "./img/javascript/day03/async_promise.png",
+                700,200,
+                "async funcs and promises"
+            );
+        },
+        ch04:()=>{
+            $("#main").html(javascript.ch04);
         }
     },
     next:{
