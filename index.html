@@ -34,8 +34,9 @@
                 <section>
                     <ul>
                         <caption>Node.js</caption>
-                        <li><a href="javascript:nav.node.ch01()">chapter01.</a></li>
+                        <li><a href="javascript:nav.node.ch01()">chapter01.Creating a new server.</a></li>
                         <li><a href="javascript:nav.node.ch02()">chapter02.</a></li>
+                        <li><a href="javascript:nav.node.ch03()">chapter03.</a></li>
                     </ul>
                 </section>
                 <section>
@@ -53,7 +54,27 @@
         </section>
 
         <article id="main"> 
-           
+           <h2>Creating a new server.</h2>
+           <section>    
+                <h3 class="centerText">Core Modules</h3>
+                When making a server, you get to choose the modules to work with.<br>
+                and use <emR>require()</emR> keyword to import the modules or my own js module.
+                <ul>
+                    <li><emR>http</emR>: launches a <emB>server</emB> 
+                        and send <emB>requests</emB>.</li>
+                    <li><emR>https</emR>: launches a securely encrypted <emB>server</emB> 
+                        and send encrypted <emB>requests</emB>.</li>
+                    <li><emR>fs</emR>: file system that creates file on your local host.</li>
+                    <li>path</li>
+                    <li>os</li>
+                </ul>
+                <div id="img1"></div>
+           </section>   
+           <aside>
+               <ul>
+                   <li>Event loop: a looping procedure while the server is on.</li>
+               </ul>
+           </aside>
         </article>
 
         <aside id="footer">
