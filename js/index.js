@@ -93,5 +93,15 @@ const nav = {
         ch01:()=>{
             $("#main").html();
         }
+    },
+    graphQL:{
+        ch01:()=>{
+            $("#main").html(graphQL.day01);
+        }
+    },
+    apollo:{
+        ch01:()=>{
+            $("#main").html();
+        }   
     }
 }
