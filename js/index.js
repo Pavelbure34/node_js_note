@@ -97,6 +97,9 @@ const nav = {
     graphQL:{
         ch01:()=>{
             $("#main").html(graphQL.day01);
+        },
+        ch02:()=>{
+            $("#main").html(graphQL.day02);
         }
     },
     apollo:{

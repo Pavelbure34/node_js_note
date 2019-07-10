@@ -56,6 +56,75 @@ const graphQL = {
             </section>\
         </section>',
     day02:
+        '<h2>Graph and graph query</h2>'+
+        '<section>\
+            <h3 class="centerText">What is Graph in GraphQL?</h3>\
+            <div class="centerItem">\
+                <img\
+                src="img/graphQL/day02/example.png"\
+                width="600"\
+                height="300"\
+                alt="graphQL example"\
+                ><br><span class="imgSub">\
+                    Graph Example\
+                </span>\
+            </div>\
+            Graph is not the one you think in the math and statistics.<br>\
+            In graphQL, graph shows how datas are called, returned, and how it\
+            looks like in structure.<br> \
+        </section>'+
+        '<section>\
+        <h3 class="centerText">graph Query</h3>\
+        <div>\
+            <h4>Simple query</h4>\
+            <div class="clearB"></div>\
+            <img\
+                src="img/graphQL/day02/query.png"\
+                width="450"\
+                height="300"\
+                style="float:left;"\
+                alt="query"\
+            >\
+            <div class="floatL">\
+                When we fetch the data from db, we do the query.\
+                <ul>\
+                    <caption>you may find</caption>\
+                    <li>similar to javascript object</li>\
+                    <li>no comma just space between key.</li>\
+                    <li>When typing wrong key, it will show error.</li>\
+                </ul>\
+            </div>\
+            <div class="clearB"></div>'+
+            '<h4>graph nested Query</h4>\
+            <div class="clearB"></div>\
+            <img\
+                src="./img/graphQL/day02/nestedquery.png"\
+                width="450"\
+                height="300"\
+                style="float:left;"\
+                alt="nested_query"\
+            >\
+            <div class="floatL">\
+                In real life,query can be really complicated\
+                <ul>\
+                    <caption>When query on object</caption>\
+                    <li>specify the property of the object</li>\
+                    <li>under the nested paranthesis.</li>\
+                    <li>if the return value is in...\
+                        <ul>\
+                            <li>simple data with !: always single simple data</li>\
+                            <li>special name with !:always special object data.</li>\
+                            <li>data type closed with [] !: always arrays</li>\
+                        </ul>\
+                    </li>\
+                </ul>\
+            </div>\
+            <div class="clearB"></div>\
+        </div>'+
+        '</section>',
+    day03:
+        '',
+    day04:
         ''
 }
 
